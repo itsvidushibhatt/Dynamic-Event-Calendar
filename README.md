@@ -1,58 +1,80 @@
+
 # Dynamic Event Calendar Application
 
-A feature-rich dynamic event calendar application built using **React.js**, **ShadCN**, and **Tailwind CSS**, with **Node.js** and **Express** for the backend, and MongoDB for data storage.
+A feature-rich dynamic event calendar application built using **React.js** and **ShadCN**. This project showcases advanced React logic, clean UI design, and effective state management to handle complex functionalities like event scheduling, month navigation, and data persistence.
 
-## Screenshots
-
-### Calendar View
-![Calendar View](./images/calendar.png)
-
-### Add Event Modal
-![Add Event Modal](./images/event-modal.png)
-
-### Event List
-![Event List](./images/event-list.png)
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Architecture Overview](#architecture-overview)
+- [Deployment](#deployment)
+- [How to Run Locally](#how-to-run-locally)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
 
 ## Features
 
 ### 1. **Calendar View**
-- Displays a **calendar grid** for the current month with all days properly aligned.
-- Allows users to switch between months using **"Previous"** and **"Next"** buttons.
-- The current day and selected day are visually highlighted.
+- Displays a **monthly calendar grid**, dynamically adjusting for different months and leap years.
+- **Navigation**: Switch between months using "Previous" and "Next" buttons.
+- **Current Day Highlight**: Automatically highlights the current day.
+- **Selected Day Highlight**: Visually distinct when a day is selected.
 
 ### 2. **Event Management**
-- Users can **add, edit, or delete events** on a specific day by interacting with the calendar.
-- Each event includes:
-  - **Event name**
-  - **Start time** and **end time**
-  - Optional **description**
+- **Add Events**: Click on any day to open a modal and input the following:
+  - Event name
+  - Start time and end time
+  - Optional description
+- **Edit Events**: Modify the details of existing events.
+- **Delete Events**: Remove unwanted events with a single click.
+- **Prevent Overlaps**: Automatically validates to ensure no two events overlap.
 
 ### 3. **Event List**
-- A list of all events for the selected day is displayed in a **modal** or **side panel**.
+- View a detailed list of all events for the selected day in a modal or side panel.
+- Events are displayed in **chronological order** for easy readability.
 
 ### 4. **Data Persistence**
-- Events are persisted using **localStorage** (or any chosen in-memory data store) to ensure the events remain even after the page is refreshed.
+- All events are stored using **localStorage**, ensuring data is preserved even after refreshing the page.
 
-### 5. **UI Design**
-- Clean, modern UI using **ShadCN** components and **Tailwind CSS** for styling.
-- Days are displayed in a grid, with clear separation for **weekends** and **weekdays**.
+### 5. **Advanced Features**
+- **Dynamic Month Handling**: Automatically handles transitions like switching from Jan 31 to Feb 1.
+- **Event Filtering**: Search and filter events by keywords for better organization.
 
-### 6. **Complex Logic**
-- Handles **month transitions** correctly (e.g., from Jan 31 to Feb 1).
-- **Prevents overlapping events** (e.g., two events at the same time).
-- Users can **filter events** by keyword.
+## Tech Stack
 
-### 7. **Bonus Features**
-- **Drag-and-drop functionality** to reschedule events between days.
-- **Color coding** for events (e.g., work, personal, etc.).
-- Users can **export the event list** for a specific month as a **JSON** or **CSV** file.
+### **Frontend**:
+- **React.js** with **Vite** for fast development and performance.
+- **ShadCN** for modern, responsive UI components.
+- **Tailwind CSS** for scalable and efficient styling.
 
----
+### **Data Storage**:
+- **LocalStorage** for persistent data management.
 
-## Installation
+### **Deployment**:
+- **Vercel/Netlify** for hassle-free deployment.
 
-### **1. Clone the Repository**
+## Architecture Overview
+
+### **State Management**:
+- Used `useState` and `useEffect` hooks to manage calendar states (selected day, current month) and event data.
+
+### **LocalStorage Integration**:
+- Events are saved in **localStorage** whenever changes are made and loaded on app initialization.
+
+### **Dynamic Rendering**:
+- Calendar grid dynamically adjusts for each month and highlights weekends.
+
+### **UI Components**:
+- Modular and reusable components such as **Calendar**, **EventModal**, and **EventList**.
+
+## Deployment
+- **Deployed Application**: [View Here](#)  
+- **GitHub Repository**: [View Here](#)
+
+## How to Run Locally
+
+### **1. Clone the Repository**:
 ```bash
-git clone https://github.com/yourusername/dynamic-event-calendar.git
-cd dynamic-event-calendar
-
+git clone https://github.com/username/event-calendar-app.git  
+cd event-calendar-app

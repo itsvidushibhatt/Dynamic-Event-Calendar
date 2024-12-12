@@ -1,122 +1,58 @@
-Dynamic Event Calendar Application
-A feature-rich dynamic event calendar application built using React.js and ShadCN. This project showcases advanced React logic, clean UI design, and effective state management to handle complex functionalities like event scheduling, month navigation, and data persistence.
+# Dynamic Event Calendar Application
 
-Table of Contents
-Features
-Tech Stack
-Architecture Overview
-Deployment
-How to Run Locally
-Screenshots
-Future Enhancements
-Contributing
-Features
-1. Calendar View
-Displays a monthly calendar grid, dynamically adjusting for different months and leap years.
-Navigation: Switch between months using "Previous" and "Next" buttons.
-Current Day Highlight: Automatically highlights the current day.
-Selected Day Highlight: Visually distinct when a day is selected.
-2. Event Management
-Add Events: Click on any day to open a modal and input the following:
-Event name
-Start time and end time
-Optional description
-Edit Events: Modify the details of existing events.
-Delete Events: Remove unwanted events with a single click.
-Prevent Overlaps: Automatically validates to ensure no two events overlap.
-3. Event List
-View a detailed list of all events for the selected day in a modal or side panel.
-Events are displayed in chronological order for easy readability.
-4. Data Persistence
-All events are stored using localStorage, ensuring data is preserved even after refreshing the page.
-5. Advanced Features
-Dynamic Month Handling: Automatically handles transitions like switching from Jan 31 to Feb 1.
-Event Filtering: Search and filter events by keywords for better organization.
-Tech Stack
-Frontend:
+A feature-rich dynamic event calendar application built using **React.js**, **ShadCN**, and **Tailwind CSS**, with **Node.js** and **Express** for the backend, and MongoDB for data storage.
 
-React.js with Vite for fast development and performance.
-ShadCN for modern, responsive UI components.
-Tailwind CSS for scalable and efficient styling.
-Data Storage:
+## Screenshots
 
-LocalStorage for persistent data management.
-Deployment:
+### Calendar View
+![Calendar View](./images/calendar.png)
 
-Vercel/Netlify for hassle-free deployment.
-Architecture Overview
-State Management:
+### Add Event Modal
+![Add Event Modal](./images/event-modal.png)
 
-Used useState and useEffect hooks to manage calendar states (selected day, current month) and event data.
-LocalStorage Integration:
+### Event List
+![Event List](./images/event-list.png)
 
-Events are saved in localStorage whenever changes are made and loaded on app initialization.
-Dynamic Rendering:
+## Features
 
-Calendar grid dynamically adjusts for each month and highlights weekends.
-UI Components:
+### 1. **Calendar View**
+- Displays a **calendar grid** for the current month with all days properly aligned.
+- Allows users to switch between months using **"Previous"** and **"Next"** buttons.
+- The current day and selected day are visually highlighted.
 
-Modular and reusable components such as Calendar, EventModal, and EventList.
-Deployment
-Deployed Application: View Here
-GitHub Repository: View Here
-How to Run Locally
-Clone the Repository:
+### 2. **Event Management**
+- Users can **add, edit, or delete events** on a specific day by interacting with the calendar.
+- Each event includes:
+  - **Event name**
+  - **Start time** and **end time**
+  - Optional **description**
 
-bash
-Copy code
-git clone https://github.com/username/event-calendar-app.git  
-cd event-calendar-app  
-Install Dependencies:
+### 3. **Event List**
+- A list of all events for the selected day is displayed in a **modal** or **side panel**.
 
-bash
-Copy code
-npm install  
-Run the Application:
+### 4. **Data Persistence**
+- Events are persisted using **localStorage** (or any chosen in-memory data store) to ensure the events remain even after the page is refreshed.
 
-bash
-Copy code
-npm run dev  
-Open in Browser:
+### 5. **UI Design**
+- Clean, modern UI using **ShadCN** components and **Tailwind CSS** for styling.
+- Days are displayed in a grid, with clear separation for **weekends** and **weekdays**.
 
-Navigate to http://localhost:5173 to view the app.
-Screenshots
-Calendar View:
-(Include a screenshot showing the calendar grid with the current day highlighted.)
+### 6. **Complex Logic**
+- Handles **month transitions** correctly (e.g., from Jan 31 to Feb 1).
+- **Prevents overlapping events** (e.g., two events at the same time).
+- Users can **filter events** by keyword.
 
-Add Event Modal:
-(Include a screenshot of the modal for adding events.)
+### 7. **Bonus Features**
+- **Drag-and-drop functionality** to reschedule events between days.
+- **Color coding** for events (e.g., work, personal, etc.).
+- Users can **export the event list** for a specific month as a **JSON** or **CSV** file.
 
-Event List:
-(Include a screenshot showing a list of events for a selected day.)
+---
 
-Drag-and-Drop Feature (Bonus):
-(If implemented, include a GIF or screenshot demonstrating drag-and-drop.)
+## Installation
 
-Future Enhancements
-Recurring Events: Support for events that repeat daily, weekly, or monthly.
-User Authentication: Add personalized calendars for multiple users.
-Integration with Google Calendar: Sync events with external calendars.
-Notifications: Add reminders for upcoming events.
-Contributing
-We welcome contributions! Please follow these steps:
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/yourusername/dynamic-event-calendar.git
+cd dynamic-event-calendar
 
-Fork the repository.
-Create a new branch for your feature:
-bash
-Copy code
-git checkout -b feature-name  
-Commit your changes:
-bash
-Copy code
-git commit -m "Added feature-name"  
-Push your branch:
-bash
-Copy code
-git push origin feature-name  
-Submit a pull request for review.
-Contact
-For questions or feedback, feel free to reach out:
-
-Email: example@example.com
-GitHub: GitHub Profile

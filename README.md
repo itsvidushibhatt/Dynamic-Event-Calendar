@@ -69,8 +69,8 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 - Modular and reusable components such as **Calendar**, **EventModal**, and **EventList**.
 
 ## Deployment
-- **Deployed Application**: [View Here](#)  
-- **GitHub Repository**: [View Here](#)
+- **Deployed Application**:[https://creative-kitten-70208d.netlify.app/](#)  
+- **GitHub Repository**: [](#)
 
 ## How to Run Locally
 
@@ -78,3 +78,22 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 ```bash
 git clone https://github.com/username/event-calendar-app.git  
 cd event-calendar-app
+
+##  **2. Install Dependencies**:
+```bash
+npm install
+
+## 4. Open in Browser:
+Navigate to [http://localhost:5173](http://localhost:5173) to view the app.
+
+
+## Future Enhancements
+- **Recurring Events:** Support for events that repeat daily, weekly, or monthly.
+- **User Authentication:** Add personalized calendars for multiple users.
+- **Integration with Google Calendar:** Sync events with external calendars.
+- **Notifications:** Add reminders for upcoming events.
+
+
+
+
+

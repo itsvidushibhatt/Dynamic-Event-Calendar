@@ -72,16 +72,33 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 - **Deployed Application**:[https://creative-kitten-70208d.netlify.app/](#)  
 - **GitHub Repository**: [](#)
 
-## How to Run Locally
+- ## Screenshots
+- **Calendar View:**  
+ [Calendar](https://github.com/user-attachments/assets/23b5bff3-5bb3-4b4d-b612-33536f926531)
 
-### **1. Clone the Repository**:
-```bash
-git clone https://github.com/username/event-calendar-app.git  
-cd event-calendar-app
+![Calendar1](https://github.com/user-attachments/assets/d754308c-ec08-43b3-9439-dd11129a5195)
 
-## 2. Install Dependencies:
-```bash
-npm install
+- **Add Event Dialog Box:**  
+  ![dialogbox](https://github.com/user-attachments/assets/c2002bb0-3e1e-46fa-aa01-cae0778cadff)
+
+
+- **Event List:**
+  ![Different_events](https://github.com/user-attachments/assets/ec705e05-4ddf-491e-a3a2-2a3f09d8f599)
+
+![search](https://github.com/user-attachments/assets/419bd3c7-57bb-49b4-b9f7-cf02f44a3783)
+
+- ## Future Enhancements:
+- **Recurring Events:** Support for events that repeat daily, weekly, or monthly.
+- **User Authentication:** Add personalized calendars for multiple users.
+- **Integration with Google Calendar:** Sync events with external calendars.
+- **Notifications:** Add reminders for upcoming events.
+
+- ## Contact
+For questions or feedback, feel free to reach out:
+
+- **Email:** vidushibhatt11@gmail.com 
+- **GitHub:** [GitHub Profile](GitHub Profile URL)
+
 
 
 

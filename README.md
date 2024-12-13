@@ -70,7 +70,7 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 
 ## Deployment
 - **Deployed Application**:[https://creative-kitten-70208d.netlify.app/](#)  
-- **GitHub Repository**: [](#)
+- **GitHub Repository**: [https://github.com/itsvidushibhatt/Dynamic-Event-Calendar/tree/main](#)
 
 - ## Screenshots
 - **Calendar View:**  

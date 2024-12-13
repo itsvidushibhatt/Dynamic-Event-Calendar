@@ -95,7 +95,7 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 For questions or feedback, feel free to reach out:
 
 - **Email:** vidushibhatt11@gmail.com 
-- **GitHub:** [GitHub Profile](GitHub Profile URL)
+- **GitHub:** [https://github.com/itsvidushibhatt](GitHub Profile URL)
 
 
 

@@ -79,20 +79,9 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 git clone https://github.com/username/event-calendar-app.git  
 cd event-calendar-app
 
-##  **2. Install Dependencies**:
+## 2. Install Dependencies:
 ```bash
 npm install
-
-## 4. Open in Browser:
-Navigate to [http://localhost:5173](http://localhost:5173) to view the app.
-
-
-## Future Enhancements
-- **Recurring Events:** Support for events that repeat daily, weekly, or monthly.
-- **User Authentication:** Add personalized calendars for multiple users.
-- **Integration with Google Calendar:** Sync events with external calendars.
-- **Notifications:** Add reminders for upcoming events.
-
 
 
 

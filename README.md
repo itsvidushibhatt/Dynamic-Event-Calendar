@@ -83,9 +83,8 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 
 
 - **Event List:**
-  ![Different_events](https://github.com/user-attachments/assets/ec705e05-4ddf-491e-a3a2-2a3f09d8f599)
-
-![search](https://github.com/user-attachments/assets/419bd3c7-57bb-49b4-b9f7-cf02f44a3783)
+- ![Different_events](https://github.com/user-attachments/assets/ec705e05-4ddf-491e-a3a2-2a3f09d8f599)
+- ![search](https://github.com/user-attachments/assets/419bd3c7-57bb-49b4-b9f7-cf02f44a3783)
 
 - ## Future Enhancements:
 - **Recurring Events:** Support for events that repeat daily, weekly, or monthly.

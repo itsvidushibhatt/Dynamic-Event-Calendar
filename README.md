@@ -79,8 +79,7 @@ A feature-rich dynamic event calendar application built using **React.js** and *
 
 - **Add Event Dialog Box:**  
   ![dialogbox](https://github.com/user-attachments/assets/c2002bb0-3e1e-46fa-aa01-cae0778cadff)
-
-
+  
 - **Event List:**
   ![Different_events](https://github.com/user-attachments/assets/ec705e05-4ddf-491e-a3a2-2a3f09d8f599)
   ![search](https://github.com/user-attachments/assets/419bd3c7-57bb-49b4-b9f7-cf02f44a3783)
